@@ -20,6 +20,7 @@ Labelindex     centerx,       centery,     width,       height
 
 Make file road_sign_data.yaml with content 
 With content 
+"""
 train: ../Road_Sign_Dataset/images/train/ 
 val:  ../Road_Sign_Dataset/images/val/
 test: ../Road_Sign_Dataset/images/test/
@@ -29,6 +30,7 @@ nc: 4
 
 # class names
 names: ["trafficlight","stop", "speedlimit","crosswalk"]
+"""
 
 Define parameter in  hyp.scratch.yaml and model at yolov5s.yaml
 
