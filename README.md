@@ -18,19 +18,7 @@ In labels their is text file containing
 Labelindex     centerx,       centery,     width,       height
 0      0.517 0.658 0.145  0.423
 
-Make file road_sign_data.yaml with content 
-With content 
-"""
-train: ../Road_Sign_Dataset/images/train/ 
-val:  ../Road_Sign_Dataset/images/val/
-test: ../Road_Sign_Dataset/images/test/
-
-# number of classes
-nc: 4
-
-# class names
-names: ["trafficlight","stop", "speedlimit","crosswalk"]
-"""
+Make file road_sign_data.yaml with content like we have according to your dataset
 
 Define parameter in  hyp.scratch.yaml and model at yolov5s.yaml
 
