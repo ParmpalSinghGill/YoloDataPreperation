@@ -23,6 +23,6 @@ Make file road_sign_data.yaml with content like we have according to your datase
 Define parameter in  hyp.scratch.yaml and model at yolov5s.yaml
 
 And run
-python train.py --img 640 --cfg yolov5s.yaml --hyp hyp.scratch.yaml --batch 32 --epochs 100 --data road_sign_data.yaml --weights yolov5s.pt --workers 24 --name yolo_road_det
+python train.py --img 640 --cfg yolov5s.yaml --hyp hyp.scratch-low.yaml --batch 32 --epochs 100 --data road_sign_data.yaml --weights yolov5s.pt --workers 24 --name yolo_road_det
 
 Boom training Start
